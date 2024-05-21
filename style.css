@@ -1,0 +1,51 @@
+
+.top-navbar {
+    display: none;
+}
+
+.top {
+    display: flex;
+    background-color: #9A3328;
+    
+}
+
+.logo {
+    justify-content: center;
+}
+
+.burger-bar {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+
+
+/*top navigation bar for desktop*/
+@media (min-width: 1024px) {
+.top-navbar {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    background-color: #9A3328;
+}
+
+#logo {
+    justify-content: center;
+
+}
+
+.burger-bar {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FDF5DE;
+    font-weight: bold;
+    font-size: 110%;
+    
+}
+}
