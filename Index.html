@@ -5,50 +5,138 @@
         <meta charset="uft-8">
         <title>Zero Buzz Brew</title>
         <link rel="stylesheet" href="style.css">
+       
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
+        <meta name="description" content="Oppdag din neste favoritt alkoholfrie øl. Et hav av varianter, hvor alle smaker den gode ølsmaken, uten konsekvenser">
+        <meta name="keyword" content="øl, alkoholfri, IPA, Pale ale, pilsner, hveteøl, humle">
+
     </head>
 
     <body>
+        
 <!--navigation bar top-->
         <nav class="navbar">
             <div class="top-navbar">
-                <img src="img/menu lys.png" alt="tre linjer som viser til en sidemeny" id="burger" height="2%" width="2%">
                 <img src="img/Untitled_Artwork (6).webp" alt="logo" id="logo" height="5%" width="20%">
-                <li><a href="#">Produkter</a></li>
-                <li><a href="#">Om oss</a></li>
-                <li><a href="#">Hvorfor alkoholfri?</a></li>
-                <li><a href="#">Nyheter</a></li>
-                <li><a href="#">Kontakt oss</a></li>
-            </div>
-<!--navigation burgerbar-->
+                <ul class="menu"> 
+                    <li class="menu-item dropdown">
+                       <a href="produkter.html" class="dropdown-toggle">Produkter</a>
+                           <ul class="submenu">
+                               <li class="submenu-item"><a href="#">Pale ale</a></li>
+                               <li class="submenu-item"><a href="#">Pilsner</a></li>
+                               <li class="submenu-item"><a href="#">India pale ale</a></li>
+                               <li class="submenu-item"><a href="#">Havreøl</a></li>
+                           </ul>
+                    </li>
+                
+               
+                    <li class="menu-item dropdown">
+                          <a href="om-oss.html" class="dropdown-toggle">Om oss</a>
+                            <ul class="submenu">
+                                <li class="submenu-item"><a href="#">Vårt oppdrag</a></li>
+                                <li class="submenu-item"><a href="#">Bærekraft</a></li>
+                                <li class="submenu-item"><a href="#">Bryggeri</a></li>
+                            </ul>
+                    </li>
+                
+                  <li class="menu-item"><a href="hvorfor-alkohol.html">Hvorfor alkoholfri?</a></li>
+                  <li class="menu-item"><a href="#">Nyheter</a></li>
+                  <li class="menu-item"><a href="#">Kontakt oss</a></li>
+                
+                </ul>
+              <script src="script.js"></script>
+            </nav>
+           
+<!--navigation topbar mobile-->
 <div class="top">
-    <img src="img/menu lys.png" alt="tre linjer som viser til en sidemeny" href="#" class="burger" height="2%" width="2%">
-    <img src="img/Untitled_Artwork (6).webp" alt="logo" class="logo" height="5%" width="20%">
-</div>
-  </div>
-            <div class="burger-bar">
-                <ul>
-                    <li><a href="#">Produkter</a></li>
-                       <li class="submenu">
-                          <a href="#">Pale ale</a>
-                          <a href="#">Pilsner</a>
-                          <a href="#">India pale ale</a>
-                          <a href="#">Havreøl</a>
-                       </li>
-                    <li><a href="#">Om oss</a></li>
-                       <li class="submenu">
-                          <a href="#">Vårt oppdrag</a>
-                          <a href="#">Bærekraft</a>
-                          <a href="#">Bryggeri</a>
-                       </li>
-                    <li><a href="#">Hvorfor alkoholfri?</a></li>
-                       <li class="submenu">
-                        </li>
-                    <li><a href="#">Nyheter</a></li>
-                    <li><a href="#">Kontakt oss</a></li>
+      <img src="img/menu lys.png" alt="tre linjer som viser til en sidemeny" href="#" class="burger" height="60%" width="5%">
+      <img src="img/Untitled_Artwork (6).webp" alt="logo" class="logo" height="5%" width="40%">
+
+    
+ </div>
+ <!--navigation burgerbar mobile-->
+
+           <nav class="burger-bar">
+                <ul class="menu-burger">
+                  <li class="burgermenu-item dropdown">
+                    <a class="dropdown-toggle-burger" href="produkter.html">Produkter</a>
+                       <ul class="burger-submenu">
+                          <a class="burger-submenu-item" href="#">Pale ale</a>
+                          <a class="burger-submenu-item" href="#">Pilsner</a>
+                          <a class="burger-submenu-item" href="#">India pale ale</a>
+                          <a class="burger-submenu-item" href="#">Havreøl</a>
+                       </ul>
+                 </li>
+
+                 <li class="burgermenu-item dropdown">
+                    <a class="dropdown-toggle-burger" href="om-oss.html">Om oss</a>
+                       <ul class="burger-submenu">
+                          <a class="burger-submenu-item" href="#">Vårt oppdrag</a>
+                          <a class="burger-submenu-item" href="#">Bærekraft</a>
+                          <a class="burger-submenu-item" href="#">Bryggeri</a>
+                       </ul>
+                 </li>
+
+                    <li  class="burger-menu-item"><a href="hvorfor-alkohol.html">Hvorfor alkoholfri?</a></li>
+                    <li  class="burger-menu-item"><a href="#">Nyheter</a></li>
+                    <li  class="burger-menu-item"><a href="#">Kontakt oss</a></li>
                 </ul>
 
-            </div>
-        </nav>
-        
+            </nav>
+    
+            
+<!--main part-->
+
+       <img src="img/missy-fant-OMIgwm1i_NY-unsplash.webp" alt="bilde av de forskjellige øltypene på en bar" height="20%" width="100%">
+     
+      <div class="main">
+          <h1>Drikk mer alkoholfritt!</h1>
+          <p>1. Sunnere enn sukkerholdig brus.</p>
+          <p>2. Kan oppleve samme dopamin-rush av alkoholfri øl som med alkoholholdig øl.</p>
+          <p>3. Kan alltid drikkes uten konsekvenser, ingen ødelagt treningsøkt eller arbeidsdag.</p>
+          <p>4. Ingen leverskader.</p>
+      </div>
+
+      <div class="second">
+          <h2>Lær mer om oss</h2>
+              <div class="about">
+                <img src="img/markus-spiske-c9kyR7MOHgU-unsplash.webp" alt="Nærbilde av en humleplante" height="70%" width="70%">
+                <button class="button-about">Dette er oss</button>
+              </div>
+
+              <div class="free">
+                <img src="img/jonathan-sanchez-XSL6t68Aw30-unsplash.webp" alt="Nærbilde av en øl som blir helt i et glass, og skummet renner over" height="40%" width="70%">
+                <button class="button-free">Hvorfor alkoholfri?</button>
+              </div>
+
+      </div>
+
+
     </body>
+
+    <footer>
+    <div class="end">
+        <div class="contact">
+            <img src="img/Untitled_Artwork (6).webp" alt="logo" height="20%" width="40%">
+            <p>Email: Zerobuzzbrew@gmail.com</p>
+            <p>Instagram</p>
+            <p>Facebook</p>
+
+        </div>
+
+        <div class="info">
+            <p>Produkter</p>
+            <p>Nyheter</p>
+            <p>Om oss</p>
+            <p>Administrer informasjonskapsler</p>
+        </div>
+
+        <div class="Place">
+            <p>Vitengate 34 </p>
+            <p>8000 Aarhus, Danmark</p>
+        </div>
+    </div>
+    </footer>
 </html>
