@@ -32,6 +32,12 @@ p {
 
 }
 
+.logo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
 /*roll down burgerbar*/
 
 .burger-bar {
@@ -116,7 +122,8 @@ p {
     display: block;
 }
 
-/*styling of mobile: main part*/
+
+/*styling of mobile: main part - index*/
 .main {
     display: flex;
     flex-direction: column;
@@ -134,7 +141,7 @@ p {
 
 }
 
-h2 {
+.main h2 {
     padding-left: 20%;
 }
 
@@ -146,9 +153,71 @@ h2 {
     align-items: center;
 }
 
-/*styling og mobile: second*/
+.products-2 {
+    display: none;
+}
 
 
+
+/*styling og mobile: hvorfor-alkohol?*/
+.main-alcohol {
+    background-color: #9A3328;
+    padding-bottom: 5%;
+    color: #FDF5DE;
+
+}
+
+.main-alcohol p {
+    padding: 0 5%;
+
+}
+
+/*om oss*/
+.main-oss {
+    background-color: #9A3328;
+    color:#FDF5DE;
+    padding-bottom: 5%;
+}
+
+.main-oss p {
+    padding: 0 5%;
+}
+
+.main-oss h2 {
+    display: flex;
+    justify-content: center;
+}
+
+/*om oss - second*/
+.second-oss h2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+/*footer*/
+footer {
+    background-color: #9b862e;
+    color:#FDF5DE;
+}
+
+.end {
+    display: flex;
+    flex-direction: row;
+    padding: 2% 5%;
+}
+
+.contact p {
+    padding-left: 3%;
+}
+
+.logo-footer-desk {
+    display: none;
+}
 
 
 
@@ -181,6 +250,12 @@ h2 {
         font-weight: bold;
     }
     
+    .logo-desk {
+        width: 35%;
+        max-width: 100%;
+    }
+    
+
     /*dropdown menu*/
     
     .menu {
@@ -241,6 +316,21 @@ h2 {
         display: block;
     }
     
+    /*footer*/
+
+.end {
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+
+.logo-footer {
+    display:none;
+}
     
     
     }
@@ -296,6 +386,12 @@ a {
 
 }
 
+.logo-desk {
+    width: 35%;
+    max-width: 100%;
+}
+
+
 .menu-item a:hover  {
     background-color:#FDF5DE;
     color: #9A3328;
@@ -338,6 +434,22 @@ a {
     display: flex;
     justify-content: center;
 
+}
+
+/*footer*/
+
+.end {
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+
+.logo-footer {
+    display:none;
 }
 
 }
