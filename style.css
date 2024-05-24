@@ -1,6 +1,11 @@
 
 body {
     font-family: 'Merriweather', serif;
+    background-color: #FDF5DE;
+}
+
+p {
+    font-family: 'merriweather', serif;
 }
 
 
@@ -103,13 +108,49 @@ body {
 }
 
 .burger-submenu-item a:hover {
-    background-color:#FDF5DE;
-    color:#9A3328;
+    background-color:#9A3328;
+    color:#FDF5DE;
 }
 
 .burger-menu-item .burger-submenu.show {
     display: block;
 }
+
+/*styling of mobile: main part*/
+.main {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    background-color: #9A3328;
+    padding-bottom: 10%;
+    color: #FDF5DE;
+    font-family:'Raleway', sans-serif;
+}
+
+.second {
+    font-family:'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h2 {
+    padding-left: 20%;
+}
+
+/*products*/
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*styling og mobile: second*/
+
+
+
+
 
 /*top navigation bar for tablet*/
 @media (min-width: 768px) {
@@ -152,6 +193,11 @@ body {
     .menu-item  {
         position: relative;
         
+    }
+
+    .img-logo {
+        display: flex;
+        align-items: center;
     }
     
     .menu-item a {
@@ -210,8 +256,7 @@ body {
     justify-content: space-between;
     background-color: #9A3328;
     margin: 0;
-    padding-right: 10%;
-    padding-left: 10%;
+
 }
 
 .top {
@@ -225,7 +270,7 @@ body {
 a {
     text-decoration: none;
     color: #FDF5DE;
-    font-size: 105%;
+    font-size: 100%;
     font-weight: bold;
 }
 
@@ -284,6 +329,15 @@ a {
     display: block;
 }
 
+/*main part*/
+.products {
+    display: none;
+}
 
+.products-2 {
+    display: flex;
+    justify-content: center;
+
+}
 
 }
