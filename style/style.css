@@ -9,6 +9,10 @@ p {
     font-family: 'merriweather', serif;
 }
 
+h2 h1 h3 {
+    font-family: 'inter tight', sans-serif;
+}
+
 
 
 /*navbar for mobile*/
@@ -143,7 +147,7 @@ p {
     margin:0;
     color:#FDF5DE;
     font-weight: bold;
-    font-family: 'merriweather', serif;
+    font-family: 'inter tight', sans-serif;
     
 
 }
@@ -162,7 +166,6 @@ p {
 .main h2 {
     justify-content: center;
     display: flex;
-    font-family:'inter', sans-serif;
 }
 
 .list-main {
@@ -204,7 +207,6 @@ p {
     justify-content: center;
     color:#FDF5DE;
     font-weight: bolder;
-    font-family:'inter', sans-serif;
     background-color: #9b862e;
     margin: 0;
     padding: 3% 0;
@@ -303,12 +305,40 @@ p {
     justify-content: center;
     padding-top: 5%;
     color:#9A3328;
-    font-family:'inter', sans-serif;
     font-weight: bold;
     font-size: 200%;
 }
 
 /*styling og mobile: hvorfor-alkoholfri?*/
+
+
+
+.main-alcohol {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-alcohol h2 {
+    display: flex;
+    font-size: 180%;
+    justify-content: center;
+    font-weight: 800;
+    color: #9A3328;
+
+}
+
+.main-alcohol p {
+    margin: 2% 6%;
+    line-height: 2;
+    margin-bottom: 5%;
+}
+
+.second-alcohol {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
 #alkohol-h2 {
     display: flex;
     justify-content: center;
@@ -318,6 +348,7 @@ p {
     font-weight: 700;
 }
 
+/*produkter mobil*/
 
 .alkohol-pale-ale {
     display: flex;
@@ -479,7 +510,6 @@ p {
     color: #9A3328;
     font-weight:800;
     padding-top: 4%;
-    font-family:'inter', sans-serif;
     font-size: 180%;
 }
 
@@ -860,6 +890,35 @@ a {
 }
 
 /*hvorfor-alkoholfri*/
+.main-alcohol {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-alcohol h2 {
+    display: flex;
+    font-size: 230%;
+    font-family: 'inter', sans-serif;
+    justify-content: center;
+    font-weight: 800;
+    color: #9A3328;
+
+}
+
+.main-alcohol p {
+    margin: 2% 18%;
+    line-height: 2;
+}
+
+.second-alcohol {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+
+/*Alkoholprodukter*/
 #alkohol-h2 {
     display: flex;
     justify-content: center;
