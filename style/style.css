@@ -9,7 +9,7 @@ p {
     font-family: 'merriweather', serif;
 }
 
-h2 h1 h3 {
+h2, h1, h3, h4 {
     font-family: 'inter tight', sans-serif;
 }
 
@@ -573,6 +573,11 @@ footer {
 
 .contact p {
     padding-left: 3%;
+    font-size: 150%;
+}
+
+.info p {
+    font-size: 150%;
 }
 
 .logo-footer-desk {
@@ -899,7 +904,6 @@ a {
 .main-alcohol h2 {
     display: flex;
     font-size: 230%;
-    font-family: 'inter', sans-serif;
     justify-content: center;
     font-weight: 800;
     color: #9A3328;
@@ -909,6 +913,9 @@ a {
 .main-alcohol p {
     margin: 2% 18%;
     line-height: 2;
+    font-size: medium;
+    font-weight: 800;
+    color: #9A3328;
 }
 
 .second-alcohol {
@@ -1018,6 +1025,14 @@ a {
     display: none;
 }
 
+.info p {
+    font-size: 140%;
+    font-weight: 800;
+}
 
+.contact p {
+    font-size: 140%;
+    font-weight: 800;
+}
 
 }
