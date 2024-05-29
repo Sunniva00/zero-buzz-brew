@@ -1,0 +1,2 @@
+﻿user-agent: *Disallow:/
+sitemap: https://zero-buzz-brew.sunniva-barbakken.com/

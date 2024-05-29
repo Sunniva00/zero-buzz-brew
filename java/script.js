@@ -1,5 +1,5 @@
 
-/*dropdown menu on click*/
+/*dropdown menu på click*/
 document.addEventListener('DOMContentLoaded', function() {
     const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
 
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-/*burger menu*/
+/*burger menu submeny på click*/
 document.addEventListener('DOMContentLoaded', function() {
     const dropdownToggles = document.querySelectorAll('.dropdown-toggle-burger');
 
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-/*click burgerbar image*/
+/*click burgerbar*/
 document.addEventListener('DOMContentLoaded', function() {
     const burgerImage = document.querySelector('.burger');
     const burgerMenu = document.querySelector('.burger-bar');
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-/* make the submenu not cover menupoints*/
+/* gi submenyen egen plass*/
     document.addEventListener('DOMContentLoaded', function() {
         var dropdownToggles = document.querySelectorAll('.dropdown-toggle-burger');
 
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (submenu.classList.contains('show')) {
                     submenu.classList.remove('show');
                 } else {
-                    // Close other open submenus
+                    /*fjerne andre åpne*/
                     document.querySelectorAll('.burger-submenu').forEach(function(menu) {
                         menu.classList.remove('show');
                     });

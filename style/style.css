@@ -5,6 +5,8 @@ body {
     margin: 0;
 }
 
+/*Bestemt font til overskrifter og brødtekst*/
+
 p {
     font-family: 'merriweather', serif;
 }
@@ -44,13 +46,15 @@ h2, h1, h3, h4 {
     display: flex;
 }
 
-/*roll down burgerbar*/
+/*rull ned burgerbar*/
 
 .burger-bar {
     display: none;
     cursor: pointer;
     
 }
+
+/*styling av meny*/
 
 .menu-burger {
     list-style: none;
@@ -83,6 +87,8 @@ h2, h1, h3, h4 {
     
 }
 
+/*styling av hover til meny*/
+
 .burger-menu-item a:hover, .burgermenu-item a:hover { 
     background-color: #FDF5DE;
     color: #9A3328;
@@ -97,6 +103,8 @@ h2, h1, h3, h4 {
     padding: 0;
     margin: 0;
 }
+
+/*styling av submenu*/
 
 .burger-submenu {
     display: none;
@@ -119,6 +127,8 @@ h2, h1, h3, h4 {
     text-decoration: none;
 }
 
+/*styling av hover til submeny*/
+
 .burger-submenu-item a:hover {
     background-color:#9A3328;
     color:#FDF5DE;
@@ -140,6 +150,8 @@ h2, h1, h3, h4 {
     background-color: #9A3328;
 }
 
+/*styling av pop-up banner*/
+
 .pop-up {
     background-color: #E68537;
     padding:2%;
@@ -157,11 +169,12 @@ h2, h1, h3, h4 {
 }
 
 .second {
-    font-family:'inter', sans-serif;
     display: flex;
     flex-direction: column;
 
 }
+
+/*text i main*/
 
 .main h2 {
     justify-content: center;
@@ -175,8 +188,9 @@ h2, h1, h3, h4 {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    font-family: 'merriweather', serif;
 }
+
+/*styling av hover til knapp*/
 
 .main-1 button {
     padding: 2% 5%;
@@ -289,7 +303,6 @@ h2, h1, h3, h4 {
     color:#FDF5DE;
     font-weight: bold;
     font-size: large;
-    border-width: 30%;
     border-color: #9A3328;
 }
 
@@ -332,6 +345,9 @@ h2, h1, h3, h4 {
     margin: 2% 6%;
     line-height: 2;
     margin-bottom: 5%;
+    color: #9A3328;
+    font-weight: 800;
+    font-size: medium;
 }
 
 .second-alcohol {
@@ -545,9 +561,8 @@ h2, h1, h3, h4 {
     margin: 2% 0;
     background-color: #9A3328;
     color:#FDF5DE;
-    font-weight: bold;
+    font-weight: 800;
     font-size: large;
-    border-width: 30%;
     border-color: #9A3328;
 }
 
@@ -573,15 +588,19 @@ footer {
 
 .contact p {
     padding-left: 3%;
-    font-size: 150%;
+    font-size: 120%;
 }
 
 .info p {
-    font-size: 150%;
+    font-size: 120%;
 }
 
 .logo-footer-desk {
     display: none;
+}
+
+.logo-footer {
+    display: block;
 }
 
 
@@ -802,7 +821,6 @@ a {
     color:#FDF5DE;
     font-weight: bold;
     font-size: large;
-    border-width: 30%;
     border-color: #9A3328;
 }
 
@@ -832,14 +850,20 @@ a {
 }
 
 /*om oss*/
+
+.main-oss {
+    background-color: #9A3328;
+    padding-top: 3%;
+}
+
 .main-oss p {
     padding: 0 15%;
 }
 
 .main-oss h2 {
-    padding: 2% 0;
     font-weight: 700;
     font-size: 230%;
+    padding-bottom: 2%;
 }
 
 .second-oss {
@@ -864,7 +888,6 @@ a {
     color:#FDF5DE;
     font-weight: bold;
     font-size: large;
-    border-width: 30%;
     border-color: #9A3328;
 }
 
