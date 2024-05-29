@@ -580,6 +580,8 @@ footer {
     color:#FDF5DE;
 }
 
+/*plassere de to elementene på rekke*/
+
 .end {
     display: flex;
     flex-direction: row;
@@ -949,6 +951,7 @@ a {
 
 
 /*Alkoholprodukter*/
+
 #alkohol-h2 {
     display: flex;
     justify-content: center;
@@ -957,7 +960,6 @@ a {
     color: #9A3328;
     font-weight: 700;
 }
-
 
 .alkohol-pale-ale {
     display: flex;
@@ -968,6 +970,7 @@ a {
     padding-bottom: 5%;
 }
 
+/*plasser tekst og h3 under hverandre og sentrert*/
 .pale-ale-info {
     padding-top: 22%;
     margin-right: 10%;
@@ -989,12 +992,16 @@ a {
     line-height: 1.5;
 }
 
+/*bilde til ventre*/
+
 .alkohol-pale-ale img {
     margin-top: 3%;
     margin-right: 5%;
     padding-left: 10%;
     width: 35%;
 }
+
+/*plasser de tre bildene med tekst på rekker*/
 
 .pale-ale-taste {
     display: flex;
@@ -1009,6 +1016,8 @@ a {
     padding-left: 0%;
     width: 50%;
 }
+
+/*plasser de tre bildene og tekst under hverandre*/
 
 .taste {
     display: flex;
@@ -1031,6 +1040,8 @@ a {
 
 
 /*footer*/
+
+/*plassere de to listene på rad, men med logog som egen*/
 
 .end {
     padding-bottom: 3%;
