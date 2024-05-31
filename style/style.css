@@ -28,16 +28,12 @@ h2, h1, h3, h4 {
     align-items: center;
     background-color: #9A3328;
     position: relative;
-
-    
 }
 
 .burger {
     position: absolute;
     left: 5%;
     cursor: pointer;
-
-
 }
 
 .logo {
@@ -75,7 +71,6 @@ h2, h1, h3, h4 {
     padding: 14px 20px;
     color:#FDF5DE;
     font-weight: bold;
-
 }
 
 .burger-menu-item a {
@@ -84,7 +79,6 @@ h2, h1, h3, h4 {
     padding: 14px 20px;
     color:#FDF5DE;
     font-weight: bold;
-    
 }
 
 /*styling av hover til meny*/
@@ -92,7 +86,6 @@ h2, h1, h3, h4 {
 .burger-menu-item a:hover, .burgermenu-item a:hover { 
     background-color: #FDF5DE;
     color: #9A3328;
-
 }
 
 .burgermenu-item .burger-submenu {
@@ -329,6 +322,7 @@ h2, h1, h3, h4 {
 .main-alcohol {
     display: flex;
     flex-direction: column;
+    background-color: #9A3328;
 
 }
 
@@ -336,8 +330,8 @@ h2, h1, h3, h4 {
     display: flex;
     font-size: 180%;
     justify-content: center;
-    font-weight: 800;
-    color: #9A3328;
+    font-weight: 700;
+    color: #FDF5DE;
 
 }
 
@@ -345,8 +339,8 @@ h2, h1, h3, h4 {
     margin: 2% 6%;
     line-height: 2;
     margin-bottom: 5%;
-    color: #9A3328;
-    font-weight: 800;
+    color: #FDF5DE;
+    font-weight: 600;
     font-size: medium;
 }
 
@@ -354,6 +348,7 @@ h2, h1, h3, h4 {
     display: flex;
     justify-content: center;
     margin-bottom: 3%;
+    margin-top: 6%;
 }
 #alkohol-h2 {
     display: flex;
@@ -453,8 +448,10 @@ h2, h1, h3, h4 {
 
     margin-top: 10%;
     margin-right: 5%;
+    padding-top: 10%;
     padding-left: 10%;
     width: 38%;
+    
 }
 
 /*alkohol 3*/
@@ -471,6 +468,7 @@ h2, h1, h3, h4 {
     margin-top: 10%;
     margin-right: 5%;
     padding-left: 10%;
+    padding-top: 10%;
     width: 38%;
 }
 
@@ -488,6 +486,7 @@ h2, h1, h3, h4 {
     margin-top: 10%;
     margin-right: 5%;
     padding-left: 10%;
+    padding-top: 10%;
     width: 38%;
 }
 
@@ -617,7 +616,6 @@ footer {
     background-color: #9A3328;
     margin: 0;
     padding-left: 3%;
-
 }
 
 .top {
@@ -923,6 +921,8 @@ a {
 .main-alcohol {
     display: flex;
     flex-direction: column;
+    background-color: #9A3328;
+    padding-bottom: 2%;
 
 }
 
@@ -930,8 +930,8 @@ a {
     display: flex;
     font-size: 230%;
     justify-content: center;
-    font-weight: 800;
-    color: #9A3328;
+    font-weight: 700;
+    color: #FDF5DE;
 
 }
 
@@ -939,14 +939,18 @@ a {
     margin: 2% 18%;
     line-height: 2;
     font-size: medium;
-    font-weight: 800;
-    color: #9A3328;
+    font-weight: 600;
+    color: #FDF5DE;
 }
 
 .second-alcohol {
     display: flex;
     justify-content: center;
     margin-bottom: 3%;
+}
+
+.second-alcohol img {
+    margin-top: 2%;
 }
 
 
